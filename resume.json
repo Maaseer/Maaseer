@@ -1,0 +1,138 @@
+{
+    "titleNameMap": {
+        "educationList": "教育背景",
+        "workExpList": "工作经历",
+        "projectList": "项目经历",
+        "skillList": "个人技能",
+        "awardList": "更多信息",
+        "workList": "个人作品",
+        "aboutme": "自我介绍"
+    },
+    "avatar": {
+        "hidden": false,
+        "path":"https://github.com/Maaseer/Maasteer/blob/main/QQ%E5%9B%BE%E7%89%8720200927205338.jpg"
+    },
+    "profile": {
+        "name": "杨思誉",
+        "email": "763759021@qq.com",
+        "mobile": "17348846507",
+        "github": "",
+        "zhihu": "",
+        "workExpYear": "",
+        "workPlace": "浙江杭州",
+        "positionTitle": "Java开发工程师"
+    },
+    "educationList": [
+        {
+            "edu_time": [
+                "2020.09.01",
+                "至今"
+            ],
+            "school": "浙江理工大学",
+            "major": "计算机技术",
+            "academic_degree": "硕士 前5%",
+            "dataIndex": 0
+        },
+        {
+            "edu_time": [
+                "2016.09.01",
+                "2020.06.30"
+            ],
+            "school": "浙江理工大学科技与艺术学院",
+            "major": "计算机科学与技术",
+            "academic_degree": "本科 前5%",
+            "dataIndex": 1
+        }
+    ],
+    "awardList": [
+        {
+            "award_info": "研究生电子设计竞赛 华东赛区二等奖 两次",
+            "award_time": "2021/2022年08月",
+            "dataIndex": 0
+        },
+        {
+            "award_info": "优秀研究生一等奖学金三次",
+            "award_time": "每年九月"
+        },
+        {
+            "award_info": "阿里天池 云原生分布式链路追踪大赛初赛（29/4404）",
+            "award_time": "2020.07"
+        },
+        {
+            "award_info": "浙江省互联网+创新创业大赛 本研组创意类优胜奖",
+            "award_time": "2018.07"
+        }
+    ],
+    "workExpList": [
+        {
+            "company_name": "吉利控股极氪汽车",
+            "department_name": "软件解决方案与核心硬件平台 (SW&E)",
+            "work_time": "2022.07, 至今",
+            "work_desc": "1. 负责极氪汽车操作系统“ZEEKR OS”下RPC应用的开发与架构探索（C++）\n2. 负责极氪整车软件“软件定义汽车”SOA化改造开发指导的探索与输出\n3. 负责Simulink模型至ZEEKR OS的自动化集成工具开发(C++、Python)",
+            "dataIndex": 0
+        }
+    ],
+    "skillList": [
+        {
+            "skill_name": "JAVA/MySQL",
+            "skill_desc": "云原生Web项目的全栈开发经验",
+            "skill_level": 89
+        },
+        {
+            "skill_name": "C++",
+            "skill_desc": "有RPC(SOA)项目的开发经验",
+            "skill_level": 89
+        },
+        {
+            "skill_name": "Python",
+            "skill_desc": "Python - 深度学习项目搭建经验及编写脚本工具以辅助工作",
+            "skill_level": 70
+        },
+        {
+            "skill_name": "计算机网络/计算机组成原理",
+            "skill_desc": "了解网络中常用的协议与原理，对X86结构计算机略有了解",
+            "skill_level": 90
+        },
+        {
+            "skill_name": "操作系统",
+            "skill_desc": "熟悉常见OS, 了解其结构与常见算法",
+            "skill_level": 80
+        },
+        {
+            "skill_name": "基于深度学习的多模信号分类",
+            "skill_desc": "完成了国家自然基金中的子课题，参与了面上基金的申请",
+            "skill_level": 80
+        }
+    ],
+    "projectList": [
+        {
+            "project_name": "基于LSTM的异常心音检测深度神经网络",
+            "project_role": "负责人",
+            "project_time": "2020.06 - 2020.06",
+            "project_desc": "基于PhysioNet数据集研发的异常心音（一维信号）检测算法，应用于心脏健康程度快速筛查与24小时心音监控设备，论文已发表于2022 IEEE 7th International Conference on Intelligent Computing and Signal Processing。",
+            "project_content": "1. 数据集收集、数据清洗、数据预处理与增广\n 2. 对深度神经网络的选型与迭代更新，最终以LSTM和1D-CNN为基础\n 3. 数据增广、超参调教优化与模型可视化"
+        },
+        {
+            "project_name": "基于同步心音心电的多模态心衰检测神经网络",
+            "project_role": "技术负责人",
+            "project_time": "2020.07 - 至今",
+            "project_desc": "本与浙江大学第四附属医院合作，为国家自然科学基金的一部分。项目自建中等规模的临床多模态生理信号数据集，旨在研发实现快速心衰筛查医疗器械的算法部分。",
+            "project_content": "负责项目从0到1的框架设计和开发，项目仍在迭代中，目前所得准确率接近95%，能有效对心衰疾病进行初筛。医学研究表明，同步心音心电数据中蕴含心衰诊断的信息，课题以深度神经网络实现心衰的自动无创检测，最终结合其余项目的上下游软硬件实现心衰快筛设备。已录用SCI四区论文一篇（共同一作），正在撰写论文一篇。\n1. 与医院合作，制定科研计划并收集制作数据集，包括：数据模态选择、数据组织形式的制定、数据收集与清洗。最终，数据集有1000余条临床多模态数据（时序同步心音心电、超声心动图计算而得的EMC值)。\n2. 数据预处理上，先设计了一组算法“带通-均值-小波-均值”以去除低频噪声、高频干扰、拉基线，再通过Spectrogram频谱变换以得到时频能量谱图。\n3. 算法上，设计了一个基于Transformer Encoder与Res-Net的分段式神经网络。前者对信号进行独立的特征提取，所得矩阵经过融合拼接后映射至高维向量空间并混入高斯噪声提高其鲁棒性，后者对特征矩阵进行分类预测以得到结果。\n"
+        },
+        {
+            "project_name": "ECG、PCG实时采集平台",
+            "project_role": "核心开发者",
+            "project_time": "2022.03 - 至今",
+            "project_desc": "平台为基于MQTT的物联网云端，承担心音心电数据的收集存储、深度学习模型的部署与AI检测接口的接口提供。",
+            "project_content": "负责平台前期搭建中部分基础设施的建设，基于SpringBoot和Netty搭建实时采集与呈现ECG和PCG信号的Web后端。目前完成部分：1.数据库的设计与搭建，基于mysql。\n2. 用户管理、登录与鉴权服务，结合Spring Security、JWT、Redis实现登录鉴权。\n3.基于Docker与CentOS，编写Dockerfile与shell进行自动化部署。\n4. 基于netty与websocket的ECG、PCG接收服务。"
+        }
+    ],
+    "workList": [],
+    "aboutme": {
+        "aboutme_desc": "🌱Internet Native Human😈\n 一个出生于浙江宁波海边的男孩，自从2003年家里第一台电脑开始，从小在计算机与互联网中成长。\n能力项：沟通协调能力、执行力、辩证唯物主义\n    自驱型后端开发工程师，实习期间从事C++开发，浓厚的计算机兴趣爱好者，扎实的计算机基础技能，硕士期间研究方向为基于深度学习的多模态心脏生理信号检测。\n 参与ZEEKR SW&E 团队 ZEEKR OS项目，目前是整车SOA开发的主要团队成员。\n 加分项：会写文档会画图，会做PPT会宣贯，不怯生不怕事儿。会拍照片会修图，会修电脑会装机！(写宣传稿剪视频啥也能客串下) "
+    },
+    "theme": {
+        "color": "#2f5785",
+        "tagColor": "#8bc34a"
+    }
+}
